@@ -1,0 +1,17 @@
+name: CaseSystem
+version: '${project.version}'
+main: de.emilb2109.casesystem.Main
+api-version: 1.17
+authors: [ emilb2109 ]
+description: Case System
+
+commands:
+  case:
+    permission:
+      system.case.help
+      system.case.set
+      system.case.*
+      system.case.setcase
+      system.case.setweiter
+      system.case.setzurueck
+      system.case.setspawn

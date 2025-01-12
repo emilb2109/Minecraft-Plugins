@@ -1,0 +1,56 @@
+# ----------------------------------------
+#            by emilb2109
+# ----------------------------------------
+
+configVersion: "1.0" # Don't change this!
+
+General:
+  Prefix: '&7[&a&lLiteMC.de&7] &8» &7' # Prefix of the plugin
+  JoinMessage: '&7[&a+&7] &a%player%' # Join message, %player% = Player name | empty to disable
+  QuitMessage: '&7[&c-&7] &c%player%' # Quit message, %player% = Player name | empty to disable
+
+Commands:
+  HelpCommand:
+    Text:
+      - '&7&m------------------------------'
+      - ' &a&lLiteMC.de &8» &7CityBuild Hilfe'
+      - '&7&m------------------------------'
+      - '&7'
+      - '&7&l» &a/sethome &8- &7Um eine Homepunkt zu setzen.'
+      - '&7&l» &a/delhome &8- &7Um eine Home zu löschen'
+      - '&7&l» &a/home <HOME> &8- &7Um dich zu einem Home zu teleportiern'
+      - '&7&l» &a/spawn &8- &7Um zu den Spawn zu kommne'
+      - '&7&l» &a/p auto &8- &7Um ein Plot zu bekommen'
+      - '&7&l» &a/p v <NAME> &8- &7Um dich zu einem Plot zu telportieren'
+      - '&7&l» &a/ec &8- &7Um deien Enderchest zu öffnen'
+      - '&7&l» &a/tpa <SPIELER-NAMEN> &8- &7Um dich zu einem Spieler zu Teleportiren'
+      - '&7&l» &a/warp <WARP-NAME> &8- &7Um dich zu einem Warp zu teleportiren'
+      - '&7&l» &a/vote &8- &7Um für den Server zu voten'
+    Permission: 'lite.help' # Permission to execute the command
+    NoPermission: '&cDu hast keine Rechte diesen Command auszuführen!' # Message if the player has no permission
+    Command: 'hilfe' # Command to execute the command
+  ALCommand:
+    Permission: "lite.al" # Permission to execute the command
+    NoPermission: '&cDu hast keine Rechte diesen Command auszuführen!' # Message if the player has no permission
+  WarpCommand:
+    FarmWorld:
+      World: "world"
+      X: 0
+      Y: 0
+      Z: 0
+      Yaw: 0
+      Pitch: 0
+    Nether:
+      World: "nether"
+      X: 0
+      Y: 0
+      Z: 0
+      Yaw: 0
+      Pitch: 0
+    End:
+      World: "the_end"
+      X: 0
+      Y: 0
+      Z: 0
+      Yaw: 0
+      Pitch: 0

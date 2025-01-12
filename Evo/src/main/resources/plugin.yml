@@ -1,0 +1,4 @@
+name: Eveloator
+version: '${project.version}'
+main: de.emilb2109.eveloator.Main
+api-version: 1.16

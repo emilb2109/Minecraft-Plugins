@@ -1,0 +1,5 @@
+name: LiteMCCBSystem
+version: '${project.version}'
+main: de.litemc.litemccbsystem.Main
+api-version: 1.19
+description: This is the LiteMC CItyBuildSystem

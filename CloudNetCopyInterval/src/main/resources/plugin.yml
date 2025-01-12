@@ -1,0 +1,5 @@
+name: CloudNetSaveServerInInterval
+version: '${project.version}'
+main: de.litemc.cloudnetsaveserverininterval.Main
+api-version: 1.19
+description: Use the Command 'cp SERVERNAME' in a Interval

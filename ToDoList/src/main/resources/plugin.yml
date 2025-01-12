@@ -1,0 +1,10 @@
+name: ToDo-List-1.16.4
+version: '${project.version}'
+main: de.emilb2109.todolist.Main
+api-version: 1.16
+authors: [ emilb2109 ]
+
+commands:
+  ToDo:
+    permission:
+      system.todolist

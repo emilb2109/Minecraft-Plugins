@@ -1,0 +1,9 @@
+name: LobbySystem
+version: '${project.version}'
+main: de.emilb2109.lobbysystem.Main
+api-version: 1.17
+authors: [ emilb2109 ]
+
+commands:
+  build:
+    permission: lobby.build

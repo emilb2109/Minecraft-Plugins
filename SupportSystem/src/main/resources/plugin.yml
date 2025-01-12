@@ -1,0 +1,9 @@
+name: Support-System
+version: '${project.version}'
+main: de.emilb2109.supportsystem.Main
+api-version: 1.17
+authors: [ emilb2109 ]
+description: This is a Ticket System with Discord Webhook and co.
+
+commands:
+  ticket:

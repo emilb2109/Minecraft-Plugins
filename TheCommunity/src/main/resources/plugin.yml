@@ -1,0 +1,12 @@
+name: TheCommunity
+version: '${project.version}'
+main: de.thecommunity.thecommunity.Main
+api-version: 1.17
+authors: [ emilb2109 ]
+description: Minecraft Plugin für den Minecraft Server TheCommunity.
+
+permissions:
+  fistjoin:
+    permissions: system.join.first
+  Sign:
+    permissions: system.team.sign.place

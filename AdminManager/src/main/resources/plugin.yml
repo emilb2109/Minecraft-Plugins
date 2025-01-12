@@ -1,0 +1,19 @@
+name: AdminManager
+version: '${project.version}'
+main: de.emilb2109.adminmanager.Main
+api-version: 1.16
+authors: [ emilb2109 ]
+description: A Manager for Admins.
+website: https://h2890361.stratoserver.net/
+
+commands:
+  aduty:
+    permission: system.team.aduty.command
+    description: /aduty
+  admin:
+    permission: system.team.admin.command
+    description: /admin help
+
+permissions:
+  join:
+    permissions: system.team.join.message
